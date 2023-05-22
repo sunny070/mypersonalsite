@@ -25,7 +25,7 @@ const Details = () => {
         </div>
         <div className='pro'>
 
-        < img  className='img' src='./image/pro.png' alt=''/>      
+        < img  className='img' src='./pro.png' alt=''/>      
         </div>
         
         </div>
