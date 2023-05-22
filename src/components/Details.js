@@ -24,8 +24,8 @@ const Details = () => {
         <a href={resume} download="Resume" className='btnd'> Download Resume</a>
         </div>
         <div className='pro'>
-//           <img src={require('/image/pro.png')} />
-        < img  className='img' src='/pro.png' alt=''/>      
+
+        < img  className='img' src='./pro.png' alt=''/>      
         </div>
         
         </div>
