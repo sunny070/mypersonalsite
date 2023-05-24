@@ -53,7 +53,7 @@
     line-height: 40px;
    /* display: flex; */
     text-align: center;
-    /* color: #23a5c5; */
+    color: #ffffff;
 }
 /* @keyframes animatedText{
     to{
@@ -74,18 +74,19 @@
     /* display: inline-block; */
     padding: 10px;
     font-size: 1rem;
-    color: #252525;
+    color: #ffffff;
     font-weight: 600;
     letter-spacing: .1rem;
     transition: .5s ease;
     text-decoration: none;
     /* background-color: #252525; */
     border-radius: 4rem;
-    box-shadow: 0 0 1rem #252525;
+    /* box-shadow: 0 0 1rem #252525; */
+    box-shadow:  0  10px 10px #3230a0
 }
 .btnd:hover{ 
     transition: .5s ease;
-    box-shadow: 0 0 1rem #d40e7b;
+    box-shadow: 10px 0 10px  #d40e7b;
 }
 @media screen and  (max-width:900px){
     .details-container{

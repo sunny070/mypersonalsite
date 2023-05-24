@@ -31,8 +31,8 @@ const Navbar = () => {
     <>
     <nav className='navbar'>
       <div className='nav-container'>
-    <Link  className='navbar-logo' to='/' onClick={closeMobileMenu}>
-     Hello! <Home className='home'/>
+    <Link  className='navbar-logo' to='/'  onClick={closeMobileMenu}>
+     Hello! <Home onClick={handleClick} className='home'/>
      </Link>
      <div className='menu-icon' onClick={handleClick}>
       {click ?<HorizontalSplitIcon className='hori'/> : <ClearSharpIcon className='clear'/>}

@@ -3,52 +3,58 @@ import '../../App.css'
 import Footer from '../Footer'
 import Personalproject from './Personalproject'
 import Personalprojectitem from './Personalprojectitem'
+import web from '../../image/web.jpg'
+import java from '../../image/java.png'
+// import web from '../../image/web.jpg'
+
+
+
 
 const Workexperience = () => {
-    
+
 
 
   return (
 
-<div className='project'>
-        
-        <h1>Experience Gained so far</h1>
-        <div className='project__container'>
+    <div className='project'>
+
+      <h1>Experience Gained so far</h1>
+      <div className='project__container'>
         <div className='project__wrapper'>
-            <ul className='project__items'>
-                <Personalprojectitem
-                className='text'
-                src='../image/web.jpg'
-                text="Full Stack Web Developer- Intern
+          <ul className='project__items'>
+            <Personalprojectitem
+              className='text'
+              src={web}
+              text="Full Stack Web Developer- Intern
                 Department of Information and Communication Technology
                 01/2021 - 03/2021, Aizawl,Mizoram 
                 ● Build a New Water Connection System for Mizoram Government
                 ● Tools: HTML, CSS, Javascript, PHP framework Laravel"
-                link=""
-                // src="images/img-9.jpg"
-                // text="Explore the hidden waterfall deep inside the Amazon Jungle"
-                lable="Intern"
-                // path='/services'
-                />
-                <Personalprojectitem
-                  src='../image/java.png'
-                  text="ENGINNERING INTERN/TRAINEE
+              link=""
+              // src="images/img-9.jpg"
+              // text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              lable="Intern"
+            // path='/services'
+            />
+            <Personalprojectitem
+              src={java}
+              text="ENGINNERING INTERN/TRAINEE
                   TOOL ROOM AND TRAINING CENTRE
                   12/2020 - 01/2021, Guwahati
                   ● Learned Core JAVA during the pandemic through online"
-                  link=""
+              link=""
 
-                // src="images/img-2.jpg"
-                // text="Explore the hidden waterfall deep inside the Amazon Jungle"
-                lable="Training"
-                path='/services'
-                />
-                
-            </ul>
+              // src="images/img-2.jpg"
+              // text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              lable="Training"
+              path='/services'
+            />
+
+          </ul>
         </div>
-        
-      
-    </div>
+
+
+      </div>
 
 
 
@@ -59,10 +65,10 @@ const Workexperience = () => {
 
 
 
-        
-    {/* <div className='work-container'>
+
+      {/* <div className='work-container'>
       <div className='work-wrapper'> */}
-{/* <div className='intern'>
+      {/* <div className='intern'>
     
 
 <div className='intern-desc'>
@@ -99,7 +105,7 @@ During your internship, you faced the challenge of learning and familiarizing yo
 </div>
 
 </div> */}
-{/* <div className='trainee'>
+      {/* <div className='trainee'>
 <div className='intern-desc'>
     It was the time when India was suffering from pendamic
     and full lockdown people were not allowed to go out of their residence
@@ -130,13 +136,13 @@ By learning Core Java, you gained the knowledge and skills necessary to develop 
     
 </div>
 </div> */}
-</div>
+    </div>
 
-   
+
 
   )
-   
-  
+
+
 }
 
 export default Workexperience
