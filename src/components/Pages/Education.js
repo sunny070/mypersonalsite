@@ -21,7 +21,7 @@ const Education = () => {
                         Computer Science and Engineering
                     </h4>
                     <Link to='https://www.nitmz.ac.in/' target='blank'>
-                        <img className='bach-img' src={nit} alt='Nationa Institute of Technology' />
+                        <img className='bach-img' src="../../image/nit.jpg" alt='Nationa Institute of Technology' />
                     </Link>
                 </div>
                 <div className='education-higher'>
